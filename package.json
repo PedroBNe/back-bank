@@ -1,0 +1,28 @@
+{
+  "name": "mobi-api-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node src/server.js"
+  },
+  "author": "Pedro Barreto Neto",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.0",
+    "@prisma/client": "^5.17.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.17.0"
+  }
+}
