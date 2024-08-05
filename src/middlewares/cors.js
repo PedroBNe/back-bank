@@ -2,7 +2,7 @@ import cors from 'cors';
 
 const corsOptions = {
   origin: (origin, callback) => {
-    const allowedOrigins = ['http://localhost:3000', 'http://localhost:4200'];
+    const allowedOrigins = ['http://localhost:3000', 'http://localhost:4200', 'https://mobibank.com.br/', 'http://193.123.96.135:3000',];
     if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
       callback(null, true);
     } else {
